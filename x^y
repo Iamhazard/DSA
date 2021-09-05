@@ -1,0 +1,23 @@
+/ to find x^y //
+#include<stdio.h>
+long double power(int,int);
+int main()
+{
+	int x,y,res;
+	printf("enter the value of x:");
+	scanf("%d",&x);
+	printf("enter the value of y:");
+	scanf("%d",&y);
+	res=power(x,y);
+	printf("\n The %d to power %d is %d \t",x,y,res);
+	return 0;
+	
+}
+long double power(int x,int y )
+{
+  int result =1.0;
+  int i;
+  for(i=1;i<=y;i++)
+  result*=x;
+  return result;
+}
