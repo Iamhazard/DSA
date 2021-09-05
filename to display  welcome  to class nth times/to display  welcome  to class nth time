@@ -1,0 +1,14 @@
+// to display  welcome  to class nth times//
+ #include<stdio.h>
+int main()
+{
+	int i; 
+ char str[50]; 
+ printf("Enter the character - "); 
+ scanf("%s",str); 
+ for (i=1;i<=100;i++) 
+ { 
+ printf("%s\t",str); 
+ } 
+ return 0; 
+} 
